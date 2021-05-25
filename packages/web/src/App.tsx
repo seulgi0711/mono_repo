@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { Button } from "@mono/shared";
+import { Button } from '@mono/shared';
+import React, { useState } from 'react';
+import './App.css';
+import logo from './logo.svg';
 
 function App() {
   const [value, setValue] = useState(false);
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button onClick={handleClick}>Shared {value ? "True" : "False"}</Button>
+        <Button onClick={handleClick}>Shared {value ? 'True' : 'False'}</Button>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Web Edit <code>src/App.tsx</code> and save to reload.

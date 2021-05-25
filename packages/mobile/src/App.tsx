@@ -1,7 +1,7 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { Button } from "@mono/shared";
+import { Button, Link } from '@mono/shared';
+import React from 'react';
+import './App.css';
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -12,14 +12,14 @@ function App() {
           Mobile Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <Button>Shared</Button>
-        <a
+        <Link
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </Link>
       </header>
     </div>
   );
